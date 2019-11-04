@@ -45,12 +45,18 @@ ul {
   color: #fff;
 }
 
+.display-none {
+  display: none;
+}
+
 /* Header */
 
 .header-navbar {
   display: grid;
   grid-template-columns: 1.3fr repeat(2, 1fr) 1.3fr repeat(2, 1fr) 1.3fr;
   grid-template-rows: 180px;
+  margin: 0;
+  padding: 0;
 }
 
 .header-navbar > li {
