@@ -28,6 +28,17 @@ ul {
   list-style-type: none;
 }
 
+/* General classes */
+
+.default-card{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: left;
+	text-align: left;
+	flex:1;
+}
+
 /* Header */
 
 .header-navbar {
@@ -124,3 +135,33 @@ ul {
   margin-top: 1em;
   font-size: 3em;
 }
+
+/* Latests posts */
+
+.latest-posts{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.latest-posts > article {
+	position: relative;
+	height: 550px;
+	background-color: #a8a8a8;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.card-date {
+	margin-top: 60px;
+}
+
+.latest-posts > article > h2 {
+	margin-top: 10px;
+}
+
+.latest-posts > article > span {
+	position: absolute;
+	font-size: 40px;
+	bottom: 0;
+}
+

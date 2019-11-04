@@ -394,3 +394,7 @@ a:link {
 a:visited {
   color: #fff;
 }
+
+h2{
+  margin:0;
+}
