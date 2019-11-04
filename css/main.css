@@ -1,27 +1,127 @@
 @import url(//db.onlinewebfonts.com/c/7bd7f049ab12f7efc10d48e5fa57a618?family=MijaW03-Bold);
-@font-face {font-family: "MijaW03-Bold"; src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot"); src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold") format("svg"); } 
-html {
-	font-family: 'Mijaw03-Bold', sans-serif;
+@font-face {
+  font-family: "MijaW03-Bold";
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold")
+      format("svg");
 }
+/* Raw Elements */
+
+html {
+  font-family: "Mijaw03-Bold", sans-serif;
+}
+
+body {
+  font-size: calc(18px + 0.25vw);
+  font-feature-settings: "onum" 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Header */
+
 .header-navbar {
-	display: grid;
-	grid-template-columns: 1.3fr repeat(2 ,1fr) 1.3fr repeat(2 ,1fr) 1.3fr;
-	grid-template-rows: 180px;
+  display: grid;
+  grid-template-columns: 1.3fr repeat(2, 1fr) 1.3fr repeat(2, 1fr) 1.3fr;
+  grid-template-rows: 180px;
 }
 
 .header-navbar > li {
-	background-color: #d3d3d3;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: 30px;
+  background-color: #a8a8a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
 }
 
-.navbar-atag{
-	font-size: 25px;
+.navbar-atag {
+  font-size: 25px;
 }
 
 .navbar-atag > span {
-	font-size: 15px;
+  font-size: 15px;
+}
+
+/* Main section */
+
+/* Latest articles */
+
+.latest-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+
+.latest-articles > span {
+  position: absolute;
+  text-align: center;
+  left: calc(50% - 160.5px);
+  margin-top: 1.5em;
+  font-size: 30px;
+  background-color: #545454;
+}
+
+.latest-articles > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  j
+  background-color: orangered;
+  flex: 1;
+  height: 450px;
+  padding-top: 214px;
+  padding-bottom: 149px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.latest-articles > article > p {
+  font-size: 21px;
+}
+
+.article-styling > h2 {
+  font-size: 43px;
+}
+
+.article-styling > ul {
+  display: flex;
+  padding-left: 0;
+  margin-top: 1.8em;
+  float: left;
+}
+
+.article-styling > ul > li {
+  padding-right: 1.5em;
+}
+
+.article-styling:nth-of-type(1) {
+  background-color: #696969;
+}
+
+.article-styling:nth-of-type(2) {
+  background-color: #7e7e7e;
+}
+
+.article-styling:nth-of-type(3) {
+  background-color: #3f3f3f;
+}
+
+.article-styling:nth-of-type(4) {
+  background-color: #696969;
+}
+
+.arrow-article {
+  margin-top: 1em;
+  font-size: 3em;
 }
