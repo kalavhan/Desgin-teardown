@@ -75,8 +75,7 @@ ul {
 .latest-articles > article {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  j
+  justify-content: flex-start;
   background-color: orangered;
   flex: 1;
   height: 450px;
@@ -86,7 +85,7 @@ ul {
   padding-right: 5vw;
 }
 
-.latest-articles > article > p {
+.article-styling > p {
   font-size: 21px;
 }
 
