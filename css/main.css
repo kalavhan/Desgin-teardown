@@ -30,13 +30,13 @@ ul {
 
 /* General classes */
 
-.default-card{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	align-items: left;
-	text-align: left;
-	flex:1;
+.default-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: left;
+  text-align: left;
+  flex: 1;
 }
 
 /* Header */
@@ -138,30 +138,68 @@ ul {
 
 /* Latests posts */
 
-.latest-posts{
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .latest-posts > article {
-	position: relative;
-	height: 550px;
-	background-color: #a8a8a8;
-	padding-left: 10%;
-	padding-right: 10%;
+  position: relative;
+  height: 550px;
+  background-color: #a8a8a8;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .card-date {
-	margin-top: 60px;
+  margin-top: 60px;
+  margin-bottom: 15px;
 }
 
 .latest-posts > article > h2 {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 .latest-posts > article > span {
-	position: absolute;
-	font-size: 40px;
-	bottom: 0;
+  position: absolute;
+  font-size: 40px;
+  bottom: 0;
 }
 
+.banner-container {
+  grid-column: span 2;
+  height: 550px;
+}
+
+.banner-container:nth-child(2) {
+  display: flex;
+  grid-column: span 2;
+}
+
+.banner-div {
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #545454;
+  color: #fff;
+}
+
+.banner-container:nth-of-type(2) {
+  height: 550px;
+  grid-column: span 3;
+  padding: 50px;
+}
+
+.see-latest {
+  display: flex;
+  grid-column: span 3;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #d3d3d3;
+  font-size: 1em;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
