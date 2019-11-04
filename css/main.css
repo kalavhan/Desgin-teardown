@@ -253,3 +253,46 @@ main > .banner-container:nth-of-type(2) > div{
   list-style-type: disc;
 }
 
+/* FOOTER */ 
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-content: center;
+	width: 100vw;
+	background-color: #6c6c6c;
+}
+
+footer > h2 {
+	font-size: 16px;
+	color: #fff;
+}
+
+footer > ul {
+	display: flex;
+	list-style-type: disc;
+
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+footer > ul > li{
+	margin-left: 35px;
+	color: #fff;
+}
+
+footer > p {
+	font-size: 14px;
+	color: #fff;
+}
+
+footer > ul:nth-of-type(2){
+	width: 55%;
+	font-size: 15px;
+}
