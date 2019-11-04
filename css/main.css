@@ -1,0 +1,27 @@
+@import url(//db.onlinewebfonts.com/c/7bd7f049ab12f7efc10d48e5fa57a618?family=MijaW03-Bold);
+@font-face {font-family: "MijaW03-Bold"; src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot"); src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold") format("svg"); } 
+html {
+	font-family: 'Mijaw03-Bold', sans-serif;
+}
+.header-navbar {
+	display: grid;
+	grid-template-columns: 1.3fr repeat(2 ,1fr) 1.3fr repeat(2 ,1fr) 1.3fr;
+	grid-template-rows: 180px;
+}
+
+.header-navbar > li {
+	background-color: #d3d3d3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 30px;
+}
+
+.navbar-atag{
+	font-size: 25px;
+}
+
+.navbar-atag > span {
+	font-size: 15px;
+}
