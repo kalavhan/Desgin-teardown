@@ -10,9 +10,7 @@
     <a href="https://github.com/kalavhan/Desgin-teardown/tree/feature-developer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="http://www.kalavhan.com/5thproject/index.html
-
-">View Demo</a>
+    <a href="http://www.kalavhan.com/5thproject/index.html">View Demo</a>
     ·
     <a href="https://github.com/kalavhan/Desgin-teardown/issues">Report Bug</a>
     ·
