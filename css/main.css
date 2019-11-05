@@ -56,6 +56,12 @@ ul {
   padding: 0;
 }
 
+
+footer > ul > li {
+  margin-left: 35px;
+  color: #fff;
+}
+
 .header-navbar > li {
   background-color: #a8a8a8;
   display: flex;
@@ -76,8 +82,6 @@ ul {
 /* Main section */
 
 /* Latest articles */
-
-.latest-articles {}
 
 .latest-articles > span {
   position: absolute;
@@ -166,7 +170,7 @@ ul {
 }
 
 .default-card > p {
-	font-size:16px;
+  font-size: 16px;
 }
 
 .latest-posts > article > span {
@@ -285,11 +289,6 @@ footer > ul {
   width: 80%;
   margin-right: auto;
   margin-left: auto;
-}
-
-footer > ul > li {
-  margin-left: 35px;
-  color: #fff;
 }
 
 footer > p {
