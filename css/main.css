@@ -1,18 +1,15 @@
 @import url(//db.onlinewebfonts.com/c/7bd7f049ab12f7efc10d48e5fa57a618?family=MijaW03-Bold);
+
 @font-face {
   font-family: "MijaW03-Bold";
   src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot");
-  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold")
-      format("svg");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold") format("svg");
 }
+
 /* Raw Elements */
 
 html {
@@ -21,7 +18,7 @@ html {
 
 body {
   font-size: calc(18px + 0.25vw);
-  font-feature-settings: "onum" 1;
+  font-feature-settings: "onum"1;
 }
 
 ul {
@@ -45,12 +42,23 @@ ul {
   color: #fff;
 }
 
+.display-none {
+  display: none;
+}
+
 /* Header */
 
 .header-navbar {
   display: grid;
   grid-template-columns: 1.3fr repeat(2, 1fr) 1.3fr repeat(2, 1fr) 1.3fr;
   grid-template-rows: 180px;
+  margin: 0;
+  padding: 0;
+}
+
+footer > ul > li {
+  margin-left: 35px;
+  color: #fff;
 }
 
 .header-navbar > li {
@@ -73,10 +81,6 @@ ul {
 /* Main section */
 
 /* Latest articles */
-
-.latest-articles {
-  
-}
 
 .latest-articles > span {
   position: absolute;
@@ -164,6 +168,10 @@ ul {
   margin-top: 10px;
 }
 
+.default-card > p {
+  font-size: 16px;
+}
+
 .latest-posts > article > span {
   position: absolute;
   font-size: 40px;
@@ -202,7 +210,8 @@ main > .banner-container:nth-of-type(2) {
   height: 280px;
   background-color: #878787;
 }
-main > .banner-container:nth-of-type(2) > div{
+
+main > .banner-container:nth-of-type(2) > div {
   height: 280px;
   background-color: #878787;
 }
@@ -253,45 +262,40 @@ main > .banner-container:nth-of-type(2) > div{
   list-style-type: disc;
 }
 
-/* FOOTER */ 
+/* FOOTER */
 
 footer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	text-align: center;
-	align-content: center;
-	background-color: #6c6c6c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  background-color: #6c6c6c;
 }
 
 footer > h2 {
-	font-size: 16px;
-	color: #fff;
+  font-size: 16px;
+  color: #fff;
 }
 
 footer > ul {
-	display: flex;
-	list-style-type: disc;
-
-	flex-wrap: wrap;
-	text-align: center;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-}
-footer > ul > li{
-	margin-left: 35px;
-	color: #fff;
+  display: flex;
+  list-style-type: disc;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 footer > p {
-	font-size: 14px;
-	color: #fff;
+  font-size: 14px;
+  color: #fff;
 }
 
-footer > ul:nth-of-type(2){
-	width: 55%;
-	font-size: 15px;
+footer > ul:nth-of-type(2) {
+  width: 55%;
+  font-size: 15px;
 }
