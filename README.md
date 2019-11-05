@@ -39,10 +39,10 @@
 This is our fourth collaborative Microverse Project.
 
 ### Objective
- -Getting familiar with ways of positioning elements with CSS.
- -Getting familiar with grid and flexbox.
- -Getting familiar with basic UX design and what a heat map is.
- -Getting accustomed to remote programming enviroment
+ 1. Getting familiar with ways of positioning elements with CSS.
+ 2. Getting familiar with grid and flexbox.
+ 3. Getting familiar with basic UX design and what a heat map is.
+ 4. Getting accustomed to remote programming enviroment
  
 ### Assignment:
  
@@ -60,8 +60,7 @@ This is our fourth collaborative Microverse Project.
 
 
 ### Built With
-This project was built using raw html and css, and all support necessary for using font awesome.* 
-
+This project was built using raw html and css.
 
 <!-- USAGE EXAMPLES -->
 ## Use
@@ -90,7 +89,6 @@ Josue Brigido - [Github profile](https://github.com/kalavhan)
 Project Link: [Project repo](https://github.com/kalavhan/Desgin-teardown)
 
 
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Font Awesome](https://fontawesome.com)
@@ -102,4 +100,4 @@ Project Link: [Project repo](https://github.com/kalavhan/Desgin-teardown)
 [contributors-url]: https://github.com/kalavhan/Desgin-teardown/graphs/contributors
 [issues-shield]: https://img.shields.io/badge/issues-0-%2300ff00
 [issues-url]: https://github.com/kalavhan/Desgin-teardown/issues
-[product-screenshot]: assets/product_ss.png
+[product-screenshot]: assets/producto_ss.png
