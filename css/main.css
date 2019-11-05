@@ -1,5 +1,3 @@
-@import url(//db.onlinewebfonts.com/c/7bd7f049ab12f7efc10d48e5fa57a618?family=MijaW03-Bold);
-
 @font-face {
   font-family: "MijaW03-Bold";
   src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot");
@@ -31,7 +29,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: left;
   text-align: left;
   flex: 1;
 }
