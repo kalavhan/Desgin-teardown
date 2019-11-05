@@ -1,0 +1,297 @@
+@font-face {
+  font-family: "MijaW03-Bold";
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold") format("svg");
+}
+
+/* Raw Elements */
+
+html {
+  font-family: "Mijaw03-Bold", sans-serif;
+}
+
+body {
+  font-size: calc(18px + 0.25vw);
+  font-feature-settings: "onum"1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* General classes */
+
+.default-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  flex: 1;
+}
+
+.default-articles-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+}
+
+.display-none {
+  display: none;
+}
+
+/* Header */
+
+.header-navbar {
+  display: grid;
+  grid-template-columns: 1.3fr repeat(2, 1fr) 1.3fr repeat(2, 1fr) 1.3fr;
+  grid-template-rows: 180px;
+  margin: 0;
+  padding: 0;
+}
+
+footer > ul > li {
+  margin-left: 35px;
+  color: #fff;
+}
+
+.article-community > div {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+
+footer > h2 {
+  font-size: 16px;
+  color: #fff;
+}
+
+footer > ul {
+  display: flex;
+  list-style-type: disc;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer > p {
+  font-size: 14px;
+  color: #fff;
+}
+
+.header-navbar > li {
+  background-color: #a8a8a8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.navbar-atag {
+  font-size: 25px;
+}
+
+.navbar-atag > span {
+  font-size: 15px;
+}
+
+/* Main section */
+
+/* Latest articles */
+
+.latest-articles > span {
+  position: absolute;
+  text-align: center;
+  left: calc(50% - 160.5px);
+  margin-top: 1.5em;
+  font-size: 30px;
+  background-color: #545454;
+}
+
+.latest-articles > article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: orangered;
+  flex: 1;
+  height: 450px;
+  padding-top: 214px;
+  padding-bottom: 149px;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.article-styling > p {
+  font-size: 21px;
+}
+
+.article-styling > h2 {
+  font-size: 43px;
+}
+
+.article-styling > ul {
+  display: flex;
+  padding-left: 0;
+  margin-top: 1.8em;
+  float: left;
+}
+
+.article-styling > ul > li {
+  padding-right: 1.5em;
+}
+
+.article-styling:nth-of-type(1) {
+  background-color: #696969;
+}
+
+.article-styling:nth-of-type(2) {
+  background-color: #7e7e7e;
+}
+
+.article-styling:nth-of-type(3) {
+  background-color: #3f3f3f;
+}
+
+.article-styling:nth-of-type(4) {
+  background-color: #696969;
+}
+
+.arrow-article {
+  margin-top: 1em;
+  font-size: 3em;
+}
+
+/* Latests posts */
+
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.latest-posts > article {
+  position: relative;
+  height: 550px;
+  background-color: #a8a8a8;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.card-date {
+  margin-top: 60px;
+  margin-bottom: 15px;
+}
+
+.latest-posts > article > h2 {
+  margin-top: 10px;
+}
+
+.default-card > p {
+  font-size: 16px;
+}
+
+.latest-posts > article > span {
+  position: absolute;
+  font-size: 40px;
+  bottom: 0;
+}
+
+/* Banners styling */
+
+.banner-container {
+  grid-column: span 2;
+  height: 550px;
+}
+
+.banner-container:nth-child(2) {
+  display: flex;
+  grid-column: span 2;
+}
+
+.banner-div {
+  display: flex;
+  height: 550px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #878787;
+  color: #fff;
+}
+
+.banner-container:nth-of-type(2) {
+  height: 550px;
+  grid-column: span 3;
+  padding: 50px;
+}
+
+main > .banner-container:nth-of-type(2) {
+  height: 280px;
+  background-color: #878787;
+}
+
+main > .banner-container:nth-of-type(2) > div {
+  height: 280px;
+  background-color: #878787;
+}
+
+.see-latest {
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  background-color: #d3d3d3;
+  font-size: 1em;
+  text-decoration: underline;
+  text-decoration-color: #fff;
+}
+
+/* Community links sections */
+
+.community-links > article {
+  background-color: #878787;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 1em;
+}
+
+.article-community > div > h2 {
+  margin-top: 0.5em;
+}
+
+.article-community:nth-of-type(1) {
+  background-color: #696969;
+  grid-column: span 2;
+  padding-top: 0;
+}
+
+/* CURATED POSTS */
+
+.latest-posts > article > ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: disc;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+  background-color: #6c6c6c;
+}
+
+footer > ul:nth-of-type(2) {
+  width: 55%;
+  font-size: 15px;
+}
