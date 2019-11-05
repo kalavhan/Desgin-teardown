@@ -3,11 +3,11 @@
 @font-face {
   font-family: "MijaW03-Bold";
   src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot");
-  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype"),
-    url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold") format("svg");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.eot?#iefix") format("embedded-opentype");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff2") format("woff2");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.woff") format("woff");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.ttf") format("truetype");
+  src: url("//db.onlinewebfonts.com/t/7bd7f049ab12f7efc10d48e5fa57a618.svg#MijaW03-Bold") format("svg");
 }
 
 /* Raw Elements */
@@ -56,7 +56,7 @@ ul {
   padding: 0;
 }
 
-.header-navbar>li {
+.header-navbar > li {
   background-color: #a8a8a8;
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@ ul {
   font-size: 25px;
 }
 
-.navbar-atag>span {
+.navbar-atag > span {
   font-size: 15px;
 }
 
@@ -79,7 +79,7 @@ ul {
 
 .latest-articles {}
 
-.latest-articles>span {
+.latest-articles > span {
   position: absolute;
   text-align: center;
   left: calc(50% - 160.5px);
@@ -88,7 +88,7 @@ ul {
   background-color: #545454;
 }
 
-.latest-articles>article {
+.latest-articles > article {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -101,22 +101,22 @@ ul {
   padding-right: 5vw;
 }
 
-.article-styling>p {
+.article-styling > p {
   font-size: 21px;
 }
 
-.article-styling>h2 {
+.article-styling > h2 {
   font-size: 43px;
 }
 
-.article-styling>ul {
+.article-styling > ul {
   display: flex;
   padding-left: 0;
   margin-top: 1.8em;
   float: left;
 }
 
-.article-styling>ul>li {
+.article-styling > ul > li {
   padding-right: 1.5em;
 }
 
@@ -148,7 +148,7 @@ ul {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.latest-posts>article {
+.latest-posts > article {
   position: relative;
   height: 550px;
   background-color: #a8a8a8;
@@ -161,11 +161,15 @@ ul {
   margin-bottom: 15px;
 }
 
-.latest-posts>article>h2 {
+.latest-posts > article > h2 {
   margin-top: 10px;
 }
 
-.latest-posts>article>span {
+.default-card > p {
+	font-size:16px;
+}
+
+.latest-posts > article > span {
   position: absolute;
   font-size: 40px;
   bottom: 0;
@@ -199,12 +203,12 @@ ul {
   padding: 50px;
 }
 
-main>.banner-container:nth-of-type(2) {
+main > .banner-container:nth-of-type(2) {
   height: 280px;
   background-color: #878787;
 }
 
-main>.banner-container:nth-of-type(2)>div {
+main > .banner-container:nth-of-type(2) > div {
   height: 280px;
   background-color: #878787;
 }
@@ -224,7 +228,7 @@ main>.banner-container:nth-of-type(2)>div {
 
 /* Community links sections */
 
-.community-links>article {
+.community-links > article {
   background-color: #878787;
   display: flex;
   flex-direction: column;
@@ -232,12 +236,12 @@ main>.banner-container:nth-of-type(2)>div {
   padding-top: 1em;
 }
 
-.article-community>div {
+.article-community > div {
   padding-right: 3em;
   padding-left: 3em;
 }
 
-.article-community>div>h2 {
+.article-community > div > h2 {
   margin-top: 0.5em;
 }
 
@@ -249,7 +253,7 @@ main>.banner-container:nth-of-type(2)>div {
 
 /* CURATED POSTS */
 
-.latest-posts>article>ul {
+.latest-posts > article > ul {
   display: flex;
   flex-direction: column;
   list-style-type: disc;
@@ -266,15 +270,14 @@ footer {
   background-color: #6c6c6c;
 }
 
-footer>h2 {
+footer > h2 {
   font-size: 16px;
   color: #fff;
 }
 
-footer>ul {
+footer > ul {
   display: flex;
   list-style-type: disc;
-
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
@@ -284,17 +287,17 @@ footer>ul {
   margin-left: auto;
 }
 
-footer>ul>li {
+footer > ul > li {
   margin-left: 35px;
   color: #fff;
 }
 
-footer>p {
+footer > p {
   font-size: 14px;
   color: #fff;
 }
 
-footer>ul:nth-of-type(2) {
+footer > ul:nth-of-type(2) {
   width: 55%;
   font-size: 15px;
 }
