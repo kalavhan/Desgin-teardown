@@ -38,27 +38,26 @@ This is our fourth collaborative Microverse Project.
 
 ### Objective
  1. Getting familiar with ways of positioning elements with CSS.
- 2. Getting familiar with grid and flexbox.
+ 2. Getting familiar with the grid and flexbox.
  3. Getting familiar with basic UX design and what a heat map is.
- 4. Getting accustomed to remote programming enviroment
+ 4. Getting accustomed to the remote programming environment
  
 ### Assignment:
  
 
-   1. Go to the ![Smashing Magazine website](https://www.smashingmagazine.com/) and check out their homepage. Think about where your eye got drawn to first, second, and third on the page. What elements on the page carry the greatest visual weight?
+   1. Go to the  ![Smashing Magazine website](https://www.smashingmagazine.com/) and check out their homepage. Think about where your eye got drawn to first, second, and third on the page. What elements on the page carry the greatest visual weight?
    2. Think for a minute about whether or not they’ve achieved the right hierarchy for getting you to consume content on their site. What’s distracting?
    3. Plan out how the elements on the page need to be grouped together.
    4. Create a new HTML document.
    5. Copy the basic structure of the page using empty semantic HTML elements that are appropriately sized and positioned.
-   6. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage. If you squint your eyes and look from your solution to their page, does your eye get drawn to the same places?
+   6. Now make the background colors of those divs different shades of gray which correspond to their visual weight on the Smashing homepage. If you squint your eyes and look from your solution to their page, does your eye gets drawn to the same places?
    7. Push your solution up to Github and you’re good to go!
 
 
 ![Project Screen Shot][product-screenshot]
 
-
 ### Built With
-This project was built using raw html and css.
+This project was built using raw HTML and CSS.
 
 <!-- USAGE EXAMPLES -->
 ## Use
